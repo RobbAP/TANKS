@@ -1,0 +1,43 @@
+﻿Build started 10/02/2015 3:52:34 PM.
+     1>Project "C:\Users\Robb\Source\Repos\Tanks\CST8237-Work\CST8237-Work.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Asteroid.cpp Bullet.cpp Game.cpp GameEngine.cpp GameObject.cpp InputManager.cpp Player.cpp Timer.cpp main.cpp
+         main.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\game.h(5): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+         Timer.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\timer.cpp(14): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\timer.cpp(30): warning C4244: '=' : conversion from 'Uint32' to 'float', possible loss of data
+         Player.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\player.cpp(50): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\player.cpp(51): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\player.cpp(106): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\player.cpp(107): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\player.cpp(108): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         InputManager.cpp
+         GameObject.cpp
+         GameEngine.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\gameengine.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         Game.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\game.h(5): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+         Bullet.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\bullet.cpp(40): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\bullet.cpp(54): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Asteroid.cpp
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(19): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(20): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(21): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(22): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(23): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(24): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(25): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(63): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(64): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(65): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\robb\source\repos\tanks\cst8237-work\asteroid.cpp(66): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>Done Building Project "C:\Users\Robb\Source\Repos\Tanks\CST8237-Work\CST8237-Work.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.85
